@@ -1,231 +1,235 @@
 /* ===== LovedIn - Proposal Page CSS ===== */
 
 :root {
-    --primary: #E22B3B;
-    --secondary: #ED4779;
-    --accent: #FA88BB;
-    --background: #F0D1D7;
-    --support: #D86A77;
-    --dark: #2C2C2C;
-    --white: #FFFFFF;
+  --primary: #e22b3b;
+  --secondary: #ed4779;
+  --accent: #fa88bb;
+  --background: #f0d1d7;
+  --support: #d86a77;
+  --dark: #2c2c2c;
+  --white: #ffffff;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: linear-gradient(135deg, var(--background), rgba(240, 209, 215, 0.3));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    padding: 40px 20px;
-    font-family: 'Playfair Display', serif;
+  background: linear-gradient(
+    135deg,
+    var(--background),
+    rgba(240, 209, 215, 0.3)
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+  font-family: "Playfair Display", serif;
 }
 
 main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .proposal-page {
-    position: relative;
-    width: 100%;
-    display: none;
+  position: relative;
+  width: 100%;
+  display: none;
 }
 
 .proposal-page.active {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .back-btn {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background: rgba(226, 43, 59, 0.1);
-    color: var(--primary);
-    border: 2px solid var(--primary);
-    padding: 10px 20px;
-    border-radius: 8px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    transition: all 0.3s;
-    z-index: 102;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(226, 43, 59, 0.1);
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+  z-index: 102;
 }
 
 .back-btn:hover {
-    background: var(--primary);
-    color: white;
-    transform: translateX(-4px);
+  background: var(--primary);
+  color: white;
+  transform: translateX(-4px);
 }
 
 .proposal-container {
-    background: white;
-    border-radius: 24px;
-    padding: 80px 50px;
-    max-width: 600px;
-    width: 100%;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    position: relative;
+  background: white;
+  border-radius: 24px;
+  padding: 80px 50px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  position: relative;
 }
 
 #proposalState {
-    display: block;
+  display: block;
 }
 
 #proposalState.hidden {
-    display: none;
+  display: none;
 }
 
 .proposal-gif {
-    width: 120px;
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 16px;
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+  border-radius: 16px;
 }
 
 .proposal-container h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 16px;
-    color: var(--dark);
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 16px;
+  color: var(--dark);
 }
 
 .proposal-container h2 {
-    font-family: 'Playfair Display', serif;
-    font-size: 42px;
-    font-weight: 800;
-    color: var(--primary);
-    margin-bottom: 16px;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 16px;
 }
 
 .proposal-container p {
-    font-size: 16px;
-    color: #888;
-    margin-bottom: 20px;
-    font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 20px;
+  font-family: "Inter", sans-serif;
 }
 
 .proposal-buttons {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
 }
 
 .btn-yes {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    padding: 18px 50px;
-    border: none;
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s;
-    font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  padding: 18px 50px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-family: "Inter", sans-serif;
 }
 
 .btn-yes:hover {
-    transform: translateY(-4px) scale(1.05);
-    box-shadow: 0 12px 35px rgba(226, 43, 59, 0.4);
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 12px 35px rgba(226, 43, 59, 0.4);
 }
 
 .btn-no {
-    background: rgba(226, 43, 59, 0.08);
-    color: var(--primary);
-    padding: 18px 50px;
-    border: 2px solid var(--primary);
-    border-radius: 12px;
-    font-weight: 700;
-    font-size: 16px;
-    cursor: pointer;
-    transition: transform 0.15s;
-    font-family: 'Inter', sans-serif;
+  background: rgba(226, 43, 59, 0.08);
+  color: var(--primary);
+  padding: 18px 50px;
+  border: 2px solid var(--primary);
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.15s;
+  font-family: "Inter", sans-serif;
 }
 
 .btn-no:hover {
-    transform: translateX(80px) translateY(-30px);
+  transform: translateX(80px) translateY(-30px);
 }
 
 .success-state {
-    display: none;
+  display: none;
 }
 
 .success-state.show {
-    display: block;
+  display: block;
 }
 
 .success-gif {
-    width: 140px;
-    height: 140px;
-    margin-bottom: 30px;
-    border-radius: 16px;
+  width: 240px;
+  height: 240px;
+  margin-bottom: 30px;
+  border-radius: 16px;
 }
 
 .success-message {
-    font-size: 16px;
-    color: var(--primary);
-    font-weight: 600;
-    padding: 20px;
-    background: rgba(226, 43, 59, 0.05);
-    border-radius: 12px;
-    margin: 20px 0;
-    font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 20px;
+  background: rgba(226, 43, 59, 0.05);
+  border-radius: 12px;
+  margin: 20px 0;
+  font-family: "Inter", sans-serif;
 }
 
 .btn {
-    font-family: 'Inter', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    padding: 16px 40px;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.3s;
-    text-decoration: none;
-    display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
-    color: white;
-    box-shadow: 0 4px 15px rgba(226, 43, 59, 0.15);
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: white;
+  box-shadow: 0 4px 15px rgba(226, 43, 59, 0.15);
 }
 
 .btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(226, 43, 59, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(226, 43, 59, 0.25);
 }
 
 @media (max-width: 768px) {
-    .proposal-container {
-        padding: 50px 30px;
-    }
+  .proposal-container {
+    padding: 50px 30px;
+  }
 
-    .proposal-container h1,
-    .proposal-container h2 {
-        font-size: 36px;
-    }
+  .proposal-container h1,
+  .proposal-container h2 {
+    font-size: 36px;
+  }
 
-    .back-btn {
-        top: 15px;
-        left: 15px;
-        padding: 8px 15px;
-    }
+  .back-btn {
+    top: 15px;
+    left: 15px;
+    padding: 8px 15px;
+  }
 
-    .btn-no:hover {
-        transform: translateX(40px) translateY(-15px);
-    }
+  .btn-no:hover {
+    transform: translateX(40px) translateY(-15px);
+  }
 }
