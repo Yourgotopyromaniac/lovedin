@@ -283,6 +283,38 @@ main section {
   font-size: 0.95rem;
 }
 
+.partner-type-group {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.partner-type-group legend {
+  font-weight: 500;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.radio-group {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.4rem;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+.radio-option input[type="radio"] {
+  accent-color: #e22b3b;
+  cursor: pointer;
+}
+
 .form-group input,
 .form-group textarea {
   font-family: var(--font-body);
