@@ -56,10 +56,10 @@
         class="features-section"
         aria-labelledby="features-title"
       >
-        <header class="features-header">
-          <span class="features-accent" aria-hidden="true"></span>
+        <header class="section-header">
+          <span class="header-accent" aria-hidden="true"></span>
 
-          <h2 id="features-title">The Proposal Experience</h2>
+          <h2 id="section-title">The Proposal Experience</h2>
         </header>
 
         <div class="features-grid">
@@ -95,6 +95,67 @@
               proposal. LovedIn makes the moment unforgettable.
             </p>
           </article>
+        </div>
+      </section>
+      <section
+        id="create"
+        class="proposal-form-section"
+        aria-labelledby="proposal-form-title"
+      >
+        <header class="section-header">
+          <span class="header-accent" aria-hidden="true"></span>
+
+          <h2>Create Your Proposal</h2>
+        </header>
+
+        <div class="proposal-form-container">
+          <p class="form-subtitle">
+            Start by telling us a little about your special someone.
+          </p>
+          <form id="proposal-form" class="proposal-form" novalidate>
+            <div class="form-group">
+              <label for="partnerName">
+                What's your partner's Name <span aria-hidden="true">*</span>
+              </label>
+
+              <input
+                type="text"
+                id="partnerName"
+                name="partnerName"
+                required
+                placeholder="e.g. Sarah"
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="nickname"
+                >What Nickname or Petname do you have for them (Optional)
+              </label>
+
+              <input
+                type="text"
+                id="nickname"
+                name="nickname"
+                placeholder="e.g. My Love"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message"> Personal Message (Optional) </label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Write something from your heart..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-cta form-submit">
+              Generate Proposal
+            </button>
+          </form>
         </div>
       </section>
     </main>
