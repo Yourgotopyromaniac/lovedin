@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LovedIn - Your Proposal</title>
+
+    <!--link to google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--link to css file-->
+    <link rel="stylesheet" href="css/proposal.css" />
+  </head>
+  <body>
+    <main>
+      <!--proposal page-->
+      <section class="proposal-page active">
+        <button class="back-btn" onclick="history.back()">← Back</button>
+
+        <section class="proposal-container">
+          <!-- Initial proposal state -->
+          <div id="proposalState">
+            <img
+              src="https://media1.tenor.com/m/UxeIUICXIdsAAAAd/looking-hiding.gif"
+              alt="Proposal GIF"
+              class="proposal-gif"
+            />
+            <h1>Will you be my girlriend?</h1>
+            <p>This is the moment that changes everything...</p>
+
+            <div class="proposal-buttons">
+              <button class="btn-yes" id="yesBtn">Yes! 💕</button>
+              <button class="btn-no" id="noBtn">No!</button>
+            </div>
+          </div>
+
+          <!-- Success proposal state(Hidden at first instance) -->
+          <div class="success-state" id="successState">
+            <img
+              src="https://media1.tenor.com/m/fLfgamfVugYAAAAd/cheering-baby-yeah.gif"
+              alt="Celebration GIF"
+              class="success-gif"
+            />
+            <h2>You've Made Me The Happiest</h2>
+            <p>Welcome to the next chapter of our story together</p>
+
+            <div class="success-message">
+              This moment, this "yes" - I'll treasure it forever. Thank you for
+              saying yes
+            </div>
+
+            <button class="btn btn-primary" onclick="goHome()">Back Home</button>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script src="js/proposal.js"></script>
+  </body>
+</html>
