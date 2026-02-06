@@ -51,8 +51,116 @@
     </header>
 
     <main id="main-content">
-      <section id="features">
-        <h2>Features</h2>
+      <section
+        id="features"
+        class="features-section"
+        aria-labelledby="features-title"
+      >
+        <header class="section-header">
+          <span class="header-accent" aria-hidden="true"></span>
+
+          <h2 id="section-title">The Proposal Experience</h2>
+        </header>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✏️</div>
+
+            <h3>Personalize</h3>
+
+            <p>
+              Add your partner's name, or nickname and a heartfelt/romantic
+              message to customize and tailor your proposal.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">🔗</div>
+
+            <h3>Share</h3>
+
+            <p>
+              Send a unique link via message, QR code, or email. Your partner
+              can open it anytime, anywhere for a surprise.
+            </p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">💖</div>
+
+            <h3>Happily Ever After</h3>
+
+            <p>
+              Watch their face light up as they experience your heartfelt
+              proposal. LovedIn makes the moment unforgettable.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        id="create"
+        class="proposal-form-section"
+        aria-labelledby="proposal-form-title"
+      >
+        <header class="section-header">
+          <span class="header-accent" aria-hidden="true"></span>
+
+          <h2>Create Your Proposal</h2>
+        </header>
+
+        <div class="proposal-form-container">
+          <p class="form-subtitle">
+            Start by telling us a little about your special someone.
+          </p>
+          <form id="proposal-form" class="proposal-form" novalidate>
+            <div class="form-group">
+              <label for="partnerName">
+                What's your partner's Name <span aria-hidden="true">*</span>
+              </label>
+
+              <input
+                type="text"
+                id="partnerName"
+                name="partnerName"
+                required
+                placeholder="e.g. Sarah"
+                autocomplete="name"
+              />
+            </div>
+
+            <div class="form-group">
+              <fieldset class="partner-type-group">
+                <legend>Partner Type <span aria-hidden="true">*</span></legend>
+
+                <div class="radio-group">
+                  <label class="radio-option">
+                    <input
+                      type="radio"
+                      name="partnerType"
+                      value="girlfriend"
+                      required
+                    />
+                    Girlfriend
+                  </label>
+
+                  <label class="radio-option">
+                    <input
+                      type="radio"
+                      name="partnerType"
+                      value="boyfriend"
+                      required
+                    />
+                    Boyfriend
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+
+            <button type="submit" class="btn btn-cta form-submit">
+              Generate Proposal
+            </button>
+          </form>
+        </div>
       </section>
     </main>
   </body>
