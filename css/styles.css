@@ -435,20 +435,6 @@ main section {
   background: #ffd1da;
 }
 
-@media (max-width: 600px) {
-  .modal {
-    padding: 2rem 1.5rem;
-  }
-
-  .modal-actions {
-    flex-direction: column;
-  }
-
-  .modal-actions .btn {
-    width: 100%;
-  }
-}
-
 .site-footer {
   margin-top: 6rem;
   padding: 4rem 1.5rem 2rem;
@@ -519,4 +505,60 @@ main section {
 .footer-bottom a:hover,
 .footer-bottom a:focus {
   text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 1.6rem;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+
+  .hero {
+    padding: 3rem 1.5rem;
+  }
+  .hero h1 {
+    font-size: clamp(4rem, 10vw, 3.2rem);
+  }
+  .proposal-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    text-align: center;
+  }
+
+  .feature-icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal {
+    padding: 2rem 1.5rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+  }
+
+  .modal-actions .btn {
+    width: 100%;
+  }
 }

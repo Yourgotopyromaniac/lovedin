@@ -216,6 +216,7 @@ main {
 @media (max-width: 768px) {
   .proposal-container {
     padding: 50px 30px;
+    margin: 80px 0px;
   }
 
   .proposal-container h1,
