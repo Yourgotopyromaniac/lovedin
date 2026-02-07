@@ -51,7 +51,7 @@ Visit LovedIn here: https://lovedin.vercel.app/
 
 ## Documentation
 
-Read the full case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE/edit?usp=drivesdk
+Read the full case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE/view?usp=sharing
 
 View the design system: https://www.notion.so/LovedIn-Design-Documentation-2fcff83f0c4c80cea70bfefc37e883e0?source=copy_link
 
@@ -147,14 +147,40 @@ We used Git and GitHub to manage the code and collaborate. Each feature was buil
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/lovedIn.git
+   git clone https://github.com/Yourgotopyromaniac/LovedIn.git
    cd lovedIn
    ```
 
 2. Open index.html in your browser
-   ```bash
-   open index.html
-   ```
+
+Option 1: Just double-click index.html in your file explorer
+(works on Windows, macOS, and Linux)
+
+Option 2: From a terminal
+
+macOS:
+
+```bash
+open index.html
+```
+
+Windows (Command Prompt):
+
+```bash
+start index.html
+```
+
+Windows (PowerShell):
+
+```bash
+ii .\index.html
+```
+
+Linux (most desktop environments):
+
+```bash
+xdg-open index.html
+```
 
 That's it. No build process or special setup needed.
 
@@ -180,3 +206,7 @@ If you have questions about the project or want to reach out, feel free to conta
 Made with care by the LovedIn team
 
 Last updated February 2026
+
+```
+
+```
