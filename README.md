@@ -202,11 +202,3 @@ That's it. No build process or special setup needed.
 If you have questions about the project or want to reach out, feel free to contact the development team.
 
 ---
-
-Made with care by the LovedIn team
-
-Last updated February 2026
-
-```
-
-```
