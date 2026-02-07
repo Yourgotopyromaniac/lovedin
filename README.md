@@ -1,23 +1,21 @@
 # LovedIn - Interactive Proposal Web Application
 
+## Live Application
+
+## Visit LovedIn here: https://lovedin.vercel.app/
+
 ## Team Members
 
 - **Developer 1**: Awoyemi Abiola - [GitHub](https://github.com/Yourgotopyromaniac)
 - **Developer 2**: Okwuosa Oluchi - [GitHub](https://github.com/luchiiii)
 
-## Live Application
-
-## Visit LovedIn here: https://lovedin.vercel.app/
-
 ## Case Study Summary
 
 LovedIn is a web application designed to help people create and share personalized proposal experiences. The app takes a simple approach - users input their partner's name and relationship type, then get a customized proposal page that feels personal and meaningful.
 
-
 ### Why it matters:
 
 Proposals are important moments that deserve to feel special. LovedIn makes it easier to create something memorable and personalized without needing to be a designer or developer. Partners can experience the proposal on any device they have.
-
 
 ### Built with:
 
@@ -102,7 +100,6 @@ xdg-open index.html
 ```
 
 That's it. No build process or special setup needed.
-
 
 ---
 
