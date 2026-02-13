@@ -1,0 +1,204 @@
+@import url("base.css");
+
+/* auth page layout */
+
+body {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-bg),
+    var(--color-secondary-bg)
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-3xl) var(--spacing-md);
+}
+
+/* auth section styling*/
+
+main > section {
+  text-align: center;
+  margin-bottom: var(--spacing-md);
+  width: 100%;
+  max-width: 400px;
+}
+
+main > section h1 {
+  font-family: var(--font-display);
+  font-size: var(--heading-h3);
+  font-weight: var(--font-weight-extrabold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+main > section p {
+  font-size: var(--font-size-sm);
+  color: var(--color-support);
+  font-weight: var(--font-weight-medium);
+}
+
+/* auth form styling*/
+
+form {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-4xl) var(--spacing-2xl);
+  max-width: 400px;
+  width: 100%;
+  box-shadow: var(--shadow-lg);
+  border: var(--border-width-thin) solid var(--color-primary-bg);
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+legend {
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: var(--color-support);
+  margin-bottom: var(--spacing-md);
+  padding: 0;
+}
+
+/* form group styling */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.form-group label {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-gray-900);
+}
+
+.form-group input {
+  padding: var(--spacing-md) var(--spacing-md);
+  border: var(--border-width-medium) solid var(--color-primary-bg);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  transition: var(--transition-base);
+  background-color: var(--color-white);
+  color: var(--color-gray-900);
+}
+
+.form-group input::placeholder {
+  color: var(--color-gray-400);
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(226, 43, 59, 0.1);
+}
+
+/* form button styling */
+
+form button {
+  padding: var(--spacing-md) var(--spacing-lg);
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-md);
+  cursor: pointer;
+  transition: var(--transition-base);
+  box-shadow: 0 4px 12px rgba(226, 43, 59, 0.15);
+  margin-top: var(--spacing-md);
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(226, 43, 59, 0.25);
+}
+
+form button:active {
+  transform: translateY(0);
+}
+
+/* auth footer styling */
+
+.auth-footer {
+  text-align: center;
+  margin-top: var(--spacing-2xl);
+  padding-top: var(--spacing-lg);
+  border-top: var(--border-width-thin) solid var(--color-primary-bg);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-footer p {
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-700);
+}
+
+.auth-footer a {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+  transition: var(--transition-base);
+}
+
+.auth-footer a:hover {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+/* project footer styling */
+
+.site-footer {
+  margin-top: auto;
+}
+
+/* responsiveness */
+
+@media (max-width: 640px) {
+  main {
+    padding: var(--spacing-2xl) var(--spacing-sm);
+  }
+
+  main > section h1 {
+    font-size: var(--heading-h4);
+  }
+
+  main > section {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  form {
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .form-group input {
+    padding: var(--spacing-md);
+    font-size: var(--font-size-md);
+  }
+
+  form button {
+    padding: var(--spacing-md);
+  }
+}
