@@ -13,7 +13,7 @@ body {
   flex-direction: column;
 }
 
-main {
+.auth-page {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -24,14 +24,14 @@ main {
 
 /* auth section styling*/
 
-main > section {
+.auth-page-text {
   text-align: center;
   margin-bottom: var(--spacing-md);
   width: 100%;
   max-width: 400px;
 }
 
-main > section h1 {
+.auth-text-heading {
   font-family: var(--font-display);
   font-size: var(--heading-h3);
   font-weight: var(--font-weight-extrabold);
@@ -39,7 +39,7 @@ main > section h1 {
   margin-bottom: var(--spacing-sm);
 }
 
-main > section p {
+.auth-text-para {
   font-size: var(--font-size-sm);
   color: var(--color-support);
   font-weight: var(--font-weight-medium);
@@ -47,7 +47,7 @@ main > section p {
 
 /* auth form styling*/
 
-form {
+.auth-form {
   background: var(--color-white);
   border-radius: var(--radius-lg);
   padding: var(--spacing-4xl) var(--spacing-2xl);
@@ -57,7 +57,7 @@ form {
   border: var(--border-width-thin) solid var(--color-primary-bg);
 }
 
-fieldset {
+.auth-field {
   border: none;
   padding: 0;
   margin: 0;
@@ -66,7 +66,7 @@ fieldset {
   gap: var(--spacing-lg);
 }
 
-legend {
+.auth-form-heading {
   font-size: var(--font-size-xs);
   font-weight: var(--font-weight-extrabold);
   letter-spacing: 0.5px;
@@ -113,7 +113,7 @@ legend {
 
 /* form button styling */
 
-form button {
+.submit-btn {
   padding: var(--spacing-md) var(--spacing-lg);
   background: linear-gradient(
     135deg,
@@ -132,12 +132,12 @@ form button {
   margin-top: var(--spacing-md);
 }
 
-form button:hover {
+.submit-btn:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(226, 43, 59, 0.25);
 }
 
-form button:active {
+.submit-btn:active {
   transform: translateY(0);
 }
 
@@ -152,18 +152,18 @@ form button:active {
   max-width: 400px;
 }
 
-.auth-footer p {
+.auth-footer-text {
   font-size: var(--font-size-sm);
   color: var(--color-gray-700);
 }
 
-.auth-footer a {
+.redirect-link {
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
   transition: var(--transition-base);
 }
 
-.auth-footer a:hover {
+.redirect-link:hover {
   color: var(--color-secondary);
   text-decoration: none;
 }
@@ -177,19 +177,19 @@ form button:active {
 /* responsiveness */
 
 @media (max-width: 640px) {
-  main {
+  .auth-page {
     padding: var(--spacing-2xl) var(--spacing-sm);
   }
 
-  main > section h1 {
+  .auth-text-heading {
     font-size: var(--heading-h4);
   }
 
-  main > section {
+  .auth-page-text {
     margin-bottom: var(--spacing-2xl);
   }
 
-  form {
+  .auth-form {
     padding: var(--spacing-2xl) var(--spacing-lg);
   }
 
@@ -198,7 +198,7 @@ form button:active {
     font-size: var(--font-size-md);
   }
 
-  form button {
+  .submit-btn {
     padding: var(--spacing-md);
   }
 }
