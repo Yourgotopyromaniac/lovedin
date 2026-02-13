@@ -224,6 +224,12 @@ a:focus {
   gap: var(--spacing-lg);
 }
 
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer-description {
   max-width: 480px;
   font-size: var(--font-size-md);
