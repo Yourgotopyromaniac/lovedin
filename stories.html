@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>LovedIn — Create the Perfect Proposal</title>
+    <title>LovedIn — Stories</title>
 
     <meta
       name="description"
@@ -64,11 +64,11 @@
       </div>
 
       <section class="hero" aria-labelledby="hero-title">
-        <h1 id="hero-title">Ask the question that matters most</h1>
+        <h1 id="hero-title">True Love(din) Stories</h1>
 
         <p class="hero-description">
-          Create a personalized, interactive proposal and watch their face light
-          up. LovedIn makes the moment unforgettable
+          Real couples, real proposals. See how LovedIn has helped people like
+          you create unforgettable moments of love and commitment.
         </p>
 
         <a href="#create" class="btn btn-cta">Create a Proposal</a>
@@ -76,52 +76,88 @@
     </header>
 
     <main id="main-content">
-      <section
-        id="features"
-        class="features-section"
-        aria-labelledby="features-title"
-      >
+      <section class="stories-section" aria-labelledby="stories-title">
         <div class="section-header">
           <span class="header-accent" aria-hidden="true"></span>
-
-          <h2 id="section-title">The Proposal Experience</h2>
+          <h2 id="stories-title">Love Stories That Started Here</h2>
         </div>
 
-        <div class="features-grid">
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">✏️</div>
-
-            <h3>Personalize</h3>
-
-            <p>
-              Add your partner's name, or nickname and a heartfelt/romantic
-              message to customize and tailor your proposal.
-            </p>
+        <div class="stories-grid">
+          <article class="story-card">
+            <img
+              src="assets/images/story-1.jpg"
+              alt="Sarah and Michael celebrating their 2nd anniversary"
+              class="story-image"
+            />
+            <div class="story-content">
+              <h3>Sarah & Michael</h3>
+              <p class="story-location">Lagos, Nigeria</p>
+              <blockquote>
+                "I wanted something special and personal. LovedIn let me create
+                a proposal she could experience at her own pace. When she said
+                yes, it was the best moment of my life!"
+              </blockquote>
+              <p class="story-date">
+                <time datetime="2025-12">December 2025</time>
+              </p>
+            </div>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">🔗</div>
-
-            <h3>Share</h3>
-
-            <p>
-              Send a unique link via message, QR code, or email. Your partner
-              can open it anytime, anywhere for a surprise.
-            </p>
+          <article class="story-card">
+            <img
+              src="assets/images/story-2.jpg"
+              alt="James and Alex sharing their engagement moment"
+              class="story-image"
+            />
+            <div class="story-content">
+              <h3>James & Alex</h3>
+              <p class="story-location">Abuja, Nigeria</p>
+              <blockquote>
+                "Being long-distance made it hard to plan the perfect proposal.
+                LovedIn helped me send my heartfelt question across the miles.
+                The personalization made it feel like I was right there."
+              </blockquote>
+              <p class="story-date">
+                <time datetime="2026-01">January 2026</time>
+              </p>
+            </div>
           </article>
 
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">💖</div>
-
-            <h3>Happily Ever After</h3>
-
-            <p>
-              Watch their face light up as they experience your heartfelt
-              proposal. LovedIn makes the moment unforgettable.
-            </p>
+          <article class="story-card">
+            <img
+              src="assets/images/story-3.jpg"
+              alt="Emily and David's engagement celebration"
+              class="story-image"
+            />
+            <div class="story-content">
+              <h3>Temi & Temi</h3>
+              <p class="story-location">London, UK</p>
+              <blockquote>
+                "I'm not great with words in person, but LovedIn helped me
+                express everything I wanted to say. The interactive experience
+                made it magical and totally us."
+              </blockquote>
+              <p class="story-date">
+                <time datetime="2025-11">November 2025</time>
+              </p>
+            </div>
           </article>
         </div>
       </section>
+
+      <section class="cta-section" aria-labelledby="cta-title">
+        <div class="cta-content">
+          <h2 id="cta-title">Ready to Write Your Story?</h2>
+          <p>
+            Join hundreds of couples who've said "yes" through LovedIn. Create
+            your personalized proposal today.
+          </p>
+          <a href="index.html#create" class="btn btn-cta"
+            >Start Your Proposal</a
+          >
+        </div>
+      </section>
+
       <aside class="aside-content" aria-labelledby="aside-title">
         <h2 id="aside-title">Did you know?</h2>
         <p>
@@ -131,71 +167,6 @@
           proposal that's as unique as your love story.
         </p>
       </aside>
-      <section
-        id="create"
-        class="proposal-form-section"
-        aria-labelledby="proposal-form-title"
-      >
-        <div class="section-header">
-          <span class="header-accent" aria-hidden="true"></span>
-
-          <h2>Create Your Proposal</h2>
-        </div>
-
-        <div class="proposal-form-container">
-          <p class="form-subtitle">
-            Start by telling us a little about your special someone.
-          </p>
-          <form id="proposal-form" class="proposal-form" novalidate>
-            <div class="form-group">
-              <label for="partnerName">
-                What's your partner's Name <span aria-hidden="true">*</span>
-              </label>
-
-              <input
-                type="text"
-                id="partnerName"
-                name="partnerName"
-                required
-                placeholder="e.g. Sarah"
-                autocomplete="name"
-              />
-            </div>
-
-            <div class="form-group">
-              <fieldset class="partner-type-group">
-                <legend>Partner Type <span aria-hidden="true">*</span></legend>
-
-                <div class="radio-group">
-                  <label class="radio-option">
-                    <input
-                      type="radio"
-                      name="partnerType"
-                      value="girlfriend"
-                      required
-                    />
-                    Girlfriend
-                  </label>
-
-                  <label class="radio-option">
-                    <input
-                      type="radio"
-                      name="partnerType"
-                      value="boyfriend"
-                      required
-                    />
-                    Boyfriend
-                  </label>
-                </div>
-              </fieldset>
-            </div>
-
-            <button type="submit" class="btn btn-cta form-submit">
-              Generate Proposal
-            </button>
-          </form>
-        </div>
-      </section>
     </main>
 
     <footer class="site-footer">
@@ -241,37 +212,5 @@
         </p>
       </div>
     </footer>
-
-    <div class="modal-overlay" id="proposal-modal" aria-hidden="true">
-      <div
-        class="modal"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="proposal-modal-title"
-        aria-describedby="proposal-modal-desc"
-      >
-        <button
-          class="modal-close"
-          type="button"
-          id="proposal-modal-close"
-          aria-label="Close dialog"
-        >
-          ×
-        </button>
-        <h3 id="proposal-modal-title">Your proposal is ready</h3>
-        <p id="proposal-modal-desc">
-          Share the link or preview it before sending.
-        </p>
-        <div class="modal-actions">
-          <button type="button" class="btn btn-cta" id="share-link-btn">
-            Share Link
-          </button>
-          <button type="button" class="btn btn-cta" id="preview-link-btn">
-            Preview Proposal
-          </button>
-        </div>
-        <p class="modal-link" id="proposal-link" aria-live="polite"></p>
-      </div>
-    </div>
   </body>
 </html>
