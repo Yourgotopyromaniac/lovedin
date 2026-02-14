@@ -263,32 +263,9 @@
 
 /* ---------- Tablets ---------- */
 @media (max-width: 768px) {
-  /* Navigation */
-  .navigation {
-    padding: var(--spacing-sm) var(--spacing-md);
-    gap: var(--spacing-md);
-  }
-
-  #nav-links-container {
-    gap: var(--spacing-lg);
-  }
-
   /* Headings */
   .section-header h2 {
     font-size: var(--heading-h3);
-  }
-
-  /* Hero */
-  .hero {
-    padding: var(--spacing-4xl) var(--spacing-lg);
-  }
-
-  .hero h1 {
-    font-size: clamp(var(--font-size-5xl), 9vw, var(--font-size-2xl));
-  }
-
-  .hero-description {
-    font-size: var(--font-size-sm);
   }
 
   /* Layout spacing */
@@ -313,10 +290,6 @@
 
 /* ---------- Large Phones ---------- */
 @media (max-width: 600px) {
-  /* Navigation: to be reimplemented with javascript menu for mobile */
-  #nav-links-container {
-    display: none;
-  }
   /* Grid */
   .features-grid {
     grid-template-columns: 1fr;
@@ -368,31 +341,6 @@
 
 /* ---------- Small Phones ---------- */
 @media (max-width: 420px) {
-  /* Hero */
-  .hero {
-    padding: var(--spacing-3xl) var(--spacing-md);
-  }
-
-  .hero h1 {
-    font-size: var(--heading-h2);
-  }
-
-  .hero-description {
-    font-size: var(--font-size-sm);
-  }
-
-  /* Navigation */
-  .navigation {
-    flex-direction: column;
-    gap: var(--spacing-sm);
-  }
-
-  #nav-links-container {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: var(--spacing-sm);
-  }
-
   /* Cards */
   .feature-card {
     padding: var(--spacing-lg);
