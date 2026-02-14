@@ -27,9 +27,11 @@ Proposals are important moments that deserve to feel special. LovedIn makes it e
 
 ## Documentation
 
-Read the full case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE/view?usp=sharing
+Read the updated case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE
 
-View the design documentation : https://tidy-nape-704.notion.site/LovedIn-Design-Documentation-2fcff83f0c4c80cea70bfefc37e883e0?source=copy_link
+View the design documentation : https://tidy-nape-704.notion.site/LovedIn-Design-Documentation-2fcff83f0c4c80cea70bfefc37e883e0
+
+View the development contribution sheet here: https://tidy-nape-704.notion.site/300ff83f0c4c80368f3edd9d22695b48
 
 ---
 
@@ -102,6 +104,70 @@ xdg-open index.html
 That's it. No build process or special setup needed.
 
 ---
+
+## Styling Guide (CSS Variables)
+
+LovedIn uses CSS variables defined in `base.css` to maintain consistent design between the website's pages and the design system, and simplify maintenance across the project.
+
+### Design Tokens
+
+All core design values are centralized as custom properties with colors and fonts matching the design documentation values:
+
+#### Colors
+
+- --color-primary (Scarlet Blush)
+- --color-primary-bg (Pink Carnation)
+- --color-accent (Petal Frost)
+- --color-support (Blush Rose)
+
+#### Typography
+
+- --font-display: "Playfair Display", serif;
+- --font-body: "Inter", sans-serif;
+- --heading-h1 to --heading-h4
+- --font-size-sm to --font-size-lg
+- --font-weight-medium
+- --font-weight-bold
+
+#### Spacing
+
+- --spacing-xs to --spacing-6xl
+
+#### Radius and Shadows
+
+- --radius-sm to --radius-2xl
+- --shadow-md
+- --shadow-lg
+
+#### Transitions and Breakpoints
+
+- --transition-fast
+- --transition-base
+- Responsive breakpoints via media queries
+
+### Usage Principle
+
+All layouts, colors, and typography should use variables instead of hard-coded values.
+
+Example:
+
+```css
+/* Preferred */
+padding: var(--spacing-lg);
+color: var(--color-gray-700);
+
+/* Avoid */
+padding: 20px;
+color: #666;
+```
+
+### File Structure
+
+base.css → Global tokens and shared styles
+index.css → Page-specific styles
+stories.css → Page-specific styles
+
+This system ensures visual consistency, easier updates, and better collaboration.
 
 ## Questions?
 

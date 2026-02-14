@@ -37,7 +37,8 @@
       name="twitter:image"
       content="https://lovedin.vercel.app/assets/images/meta-proposal.png"
     />
-
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/proposal.css" />
     <link rel="icon" href="assets/images/favicon.ico" />
     <meta name="theme-color" content="#ED4779" />
   </head>
@@ -50,18 +51,18 @@
 
         <section class="proposal-container">
           <!-- Initial proposal state -->
-          <div id="proposalState">
+          <div class="proposal-state" id="proposalState">
             <img
               src="https://media1.tenor.com/m/UxeIUICXIdsAAAAd/looking-hiding.gif"
-              alt="Proposal GIF"
+              alt="Cute animated character peeking out nervously before hiding again in a shy, playful manner."
               class="proposal-gif"
             />
-            <h1>Will you be my girlriend?</h1>
-            <p>This is the moment that changes everything...</p>
+            <h1 class="proposal-container__title">Will you be my girlriend?</h1>
+            <p class="proposal-container__text">This is the moment that changes everything...</p>
 
             <div class="proposal-buttons">
-              <button class="btn-yes" id="yesBtn">Yes! 💕</button>
-              <button class="btn-no" id="noBtn">No!</button>
+              <button class="proposal-buttons__yes" id="yesBtn">Yes! 💕</button>
+              <button class="proposal-buttons__no" id="noBtn">No!</button>
             </div>
           </div>
 
@@ -69,16 +70,16 @@
           <div class="success-state" id="successState">
             <img
               src="https://media1.tenor.com/m/fLfgamfVugYAAAAd/cheering-baby-yeah.gif"
-              alt="Celebration GIF"
+              alt="Animated baby raising their arms and cheering excitedly to celebrate the positive response."
               class="success-gif"
             />
-            <h2>You've Made Me The Happiest</h2>
-            <p>Welcome to the next chapter of our story together</p>
+            <h2 class="proposal-container__heading">You've Made Me The Happiest</h2>
+            <p class="proposal-container__text">Welcome to the next chapter of our story together</p>
 
-            <div class="success-message">
+            <p class="success-message">
               This moment, this "yes" - I'll treasure it forever. Thank you for
               saying yes
-            </div>
+            </p>
 
             <button class="btn btn-primary" onclick="goHome()">
               Back Home
@@ -87,5 +88,7 @@
         </section>
       </section>
     </main>
+
+    
   </body>
 </html>
