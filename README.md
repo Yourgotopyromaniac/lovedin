@@ -172,7 +172,3 @@ This system ensures visual consistency, easier updates, and better collaboration
 If you have questions about the project or want to reach out, feel free to contact the development team.
 
 ---
-
-```
-
-```
