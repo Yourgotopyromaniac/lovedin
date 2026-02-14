@@ -227,6 +227,7 @@ a:focus {
 /* ========== SHARED ELEMENTS ========== */
 /* Footer */
 .site-footer {
+  width: 100%;
   margin-top: var(--spacing-6xl);
   padding: var(--spacing-4xl) var(--spacing-md) var(--spacing-2xl);
   background-color: var(--color-secondary-bg);
