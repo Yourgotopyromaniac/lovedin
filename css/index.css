@@ -268,19 +268,6 @@
     font-size: var(--heading-h3);
   }
 
-  /* Hero */
-  .hero {
-    padding: var(--spacing-4xl) var(--spacing-lg);
-  }
-
-  .hero h1 {
-    font-size: clamp(var(--font-size-5xl), 9vw, var(--font-size-2xl));
-  }
-
-  .hero-description {
-    font-size: var(--font-size-sm);
-  }
-
   /* Layout spacing */
   #main-content section {
     margin-bottom: var(--spacing-3xl);
@@ -354,19 +341,6 @@
 
 /* ---------- Small Phones ---------- */
 @media (max-width: 420px) {
-  /* Hero */
-  .hero {
-    padding: var(--spacing-3xl) var(--spacing-md);
-  }
-
-  .hero h1 {
-    font-size: var(--heading-h2);
-  }
-
-  .hero-description {
-    font-size: var(--font-size-sm);
-  }
-
   /* Cards */
   .feature-card {
     padding: var(--spacing-lg);
