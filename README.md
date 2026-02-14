@@ -27,9 +27,11 @@ Proposals are important moments that deserve to feel special. LovedIn makes it e
 
 ## Documentation
 
-Read the updated case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE/view?usp=sharing
+Read the updated case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE
 
-View the design documentation : https://tidy-nape-704.notion.site/LovedIn-Design-Documentation-2fcff83f0c4c80cea70bfefc37e883e0?source=copy_link
+View the design documentation : https://tidy-nape-704.notion.site/LovedIn-Design-Documentation-2fcff83f0c4c80cea70bfefc37e883e0
+
+View the development contribution sheet here: https://tidy-nape-704.notion.site/300ff83f0c4c80368f3edd9d22695b48
 
 ---
 
