@@ -37,6 +37,7 @@
       content="https://lovedin.vercel.app/assets/images/meta-home.png"
     />
     <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/stories.css" />
     <link rel="icon" href="assets/images/favicon.ico" />
     <meta name="theme-color" content="#ED4779" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -55,11 +56,15 @@
           <img src="assets/images/logo.png" alt="LovedIn logo" width="200" />
         </a>
 
-        <nav id="nav-links-container" aria-label="Main navigation">
-          <a href="#features">Features</a>
-          <a href="stories.html">Stories</a>
-          <a href="login.html" class="btn btn-primary">Sign In</a>
-          <a href="index.html#get-started" class="btn btn-primary">Get Started</a>
+               <nav id="nav-links-container" aria-label="Main navigation">
+          <a href="#features" class="navlink">Features</a>
+          <a href="stories.html" class="navlink">Stories</a>
+          <a href="login.html" class="btn btn-primary auth-btn navlink"
+            >Sign In</a
+          >
+          <a href="index.html#get-started" class="btn btn-primary navlink"
+            >Get Started</a
+          >
         </nav>
       </div>
 
@@ -75,7 +80,7 @@
       </section>
     </header>
 
-    <main id="main-content">
+    <main id="main-stories-content">
       <section class="stories-section" aria-labelledby="stories-title">
         <div class="section-header">
           <span class="header-accent" aria-hidden="true"></span>
@@ -151,7 +156,9 @@
           Join hundreds of couples who've said "yes" through LovedIn. Create
           your personalized proposal today.
         </p>
-        <a href="index.html#create" class="btn btn-cta">Start Your Proposal</a>
+        <a href="index.html#get-started" class="btn btn-cta"
+          >Start Your Proposal</a
+        >
       </section>
 
       <aside class="aside-content" aria-labelledby="aside-title">
