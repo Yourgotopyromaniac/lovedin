@@ -4,7 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LovedIn - Sign Up</title>
+    <!-- styling links -->
     <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/auth.css" />
+    <link rel="icon" href="assets/images/favicon.ico" />
+
+    <!-- meta tags -->
+    <meta
+      name="description"
+      content="A personalized proposal experience created with LovedIn."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="LovedIn - Your Proposal" />
+    <meta
+      property="og:description"
+      content="A personalized proposal experience created with LovedIn."
+    />
+    <meta
+      property="og:image"
+      content="https://lovedin.vercel.app/assets/images/meta-proposal.png"
+    />
+    <meta
+      property="og:url"
+      content="https://lovedin.vercel.app/proposal.html"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="LovedIn - Your Proposal" />
+    <meta
+      name="twitter:description"
+      content="A personalized proposal experience created with LovedIn."
+    />
+    <meta
+      name="twitter:image"
+      content="https://lovedin.vercel.app/assets/images/meta-proposal.png"
+    />
+
+    <meta name="theme-color" content="#ED4779" />
   </head>
   <body>
     <!-- header section -->
@@ -23,16 +61,16 @@
       </div>
     </header>
 
-    <main>
-      <section>
-        <h1>Create Account</h1>
-        <p>Join LovedIn and create your perfect proposal</p>
+    <main class="auth-page">
+      <section class="auth-page-text" >
+        <h1 class="auth-text-heading">Create Account</h1>
+        <p class="auth-text-para">Join LovedIn and create your perfect proposal</p>
       </section>
 
       <!-- signup form -->
-      <form action="">
-        <fieldset>
-          <legend>Signup Details</legend>
+      <form action="" class="auth-form">
+        <fieldset class="auth-field">
+          <legend class="auth-form-heading">Signup Details</legend>
 
           <div class="form-group">
             <label for="name">FullName:</label>
@@ -67,14 +105,14 @@
             />
           </div>
 
-          <button type="submit">Sign Up</button>
+          <button type="submit" class="submit-btn">Sign Up</button>
         </fieldset>
       </form>
 
       <div class="auth-footer">
-        <p>Already have an account? <a href="login.html">Log in</a></p>
+        <p class="auth-footer-text">Already have an account? <a href="login.html" class="redirect-link">Log in</a></p>
       </div>
-    </main>
+    </mai>
 
     <!-- footer section -->
     <footer class="site-footer">
