@@ -227,10 +227,10 @@ a:focus {
   color: var(--color-secondary-bg);
 }
 
-.btn-primary:hover,
-.btn-cta:hover {
-  opacity: 0.9;
-  color: var(--color-white);
+.btn-secondary {
+  background-color: var(--color-secondary-bg);
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
 }
 
 .btn-cta {
@@ -238,6 +238,17 @@ a:focus {
   color: var(--color-secondary-bg);
   font-size: var(--font-size-md);
   margin-top: var(--spacing-2xl);
+}
+
+.btn-primary:hover,
+.btn-cta:hover {
+  opacity: 0.9;
+  color: var(--color-white);
+}
+
+.btn-secondary:hover {
+  opacity: 0.9;
+  color: var(--color-primary);
 }
 
 /* ========== SHARED ELEMENTS ========== */
