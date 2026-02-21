@@ -13,7 +13,7 @@
 
 You can read up on our individual case study here
 
-- **Developer 1**: Awoyemi Abiola -
+- **Developer 1**: Awoyemi Abiola - https://dev.to/biola/lovedin-a-case-study-4hc7
 - **Developer 2**: Okwuosa Oluchi - https://dev.to/oluchii/building-lovedin-a-case-study-25lk
 
 ## Case Study Summary
