@@ -37,13 +37,6 @@ body {
   left: var(--spacing-lg);
 }
 
-.back-btn:hover {
-  background: var(--color-support);
-  color: var(--color-white);
-  transform: translateX(-4px);
-  box-shadow: 0 4px 12px rgba(216, 106, 119, 0.3);
-}
-
 /* proposal container styling */
 
 .proposal-container {

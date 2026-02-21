@@ -111,36 +111,6 @@ body {
   box-shadow: 0 0 0 3px rgba(226, 43, 59, 0.1);
 }
 
-/* form button styling */
-
-.submit-btn {
-  padding: var(--spacing-md) var(--spacing-lg);
-  background: linear-gradient(
-    135deg,
-    var(--color-primary),
-    var(--color-secondary)
-  );
-  color: var(--color-white);
-  border: none;
-  border-radius: var(--radius-md);
-  font-family: var(--font-body);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-md);
-  cursor: pointer;
-  transition: var(--transition-base);
-  box-shadow: 0 4px 12px rgba(226, 43, 59, 0.15);
-  margin-top: var(--spacing-md);
-}
-
-.submit-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(226, 43, 59, 0.25);
-}
-
-.submit-btn:active {
-  transform: translateY(0);
-}
-
 /* auth footer styling */
 
 .auth-footer {
