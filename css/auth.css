@@ -76,41 +76,6 @@ body {
   padding: 0;
 }
 
-/* form group styling */
-
-.form-group {
-  display: flex;
-  flex-direction: column;
-  gap: var(--spacing-sm);
-}
-
-.form-group label {
-  font-size: var(--font-size-sm);
-  font-weight: var(--font-weight-semibold);
-  color: var(--color-gray-900);
-}
-
-.form-group input {
-  padding: var(--spacing-md) var(--spacing-md);
-  border: var(--border-width-medium) solid var(--color-primary-bg);
-  border-radius: var(--radius-md);
-  font-family: var(--font-body);
-  font-size: var(--font-size-sm);
-  transition: var(--transition-base);
-  background-color: var(--color-white);
-  color: var(--color-gray-900);
-}
-
-.form-group input::placeholder {
-  color: var(--color-gray-400);
-}
-
-.form-group input:focus {
-  outline: none;
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(226, 43, 59, 0.1);
-}
-
 /* auth footer styling */
 
 .auth-footer {
