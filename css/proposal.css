@@ -35,25 +35,6 @@ body {
   position: fixed;
   top: var(--spacing-lg);
   left: var(--spacing-lg);
-  background: var(--color-white);
-  color: var(--color-support);
-  border: var(--border-width-medium) solid var(--color-support);
-  padding: var(--spacing-sm) var(--spacing-md);
-  border-radius: var(--radius-md);
-  font-family: var(--font-body);
-  font-weight: var(--font-weight-semibold);
-  font-size: var(--font-size-sm);
-  cursor: pointer;
-  transition: var(--transition-base);
-  z-index: 102;
-  box-shadow: 0 2px 8px rgba(216, 106, 119, 0.15);
-}
-
-.back-btn:hover {
-  background: var(--color-support);
-  color: var(--color-white);
-  transform: translateX(-4px);
-  box-shadow: 0 4px 12px rgba(216, 106, 119, 0.3);
 }
 
 /* proposal container styling */
@@ -126,7 +107,7 @@ body {
   margin-top: var(--spacing-2xl);
 }
 
-.proposal-buttons__yes {
+/* .proposal-buttons__yes {
   background: linear-gradient(
     135deg,
     var(--color-primary),
@@ -144,14 +125,14 @@ body {
   box-shadow: 0 4px 12px rgba(226, 43, 59, 0.15);
   position: relative;
   z-index: 10;
-}
+} */
 
 .proposal-buttons__yes:hover {
   transform: translateY(-4px) scale(1.05);
   box-shadow: 0 12px 35px rgba(226, 43, 59, 0.4);
 }
 
-.proposal-buttons__no {
+/* .proposal-buttons__no {
   background: rgba(226, 43, 59, 0.08);
   color: var(--color-primary);
   padding: var(--spacing-md) var(--spacing-2xl);
@@ -162,7 +143,7 @@ body {
   font-family: var(--font-body);
   cursor: pointer;
   transition: var(--transition-fast);
-}
+} */
 
 .proposal-buttons__no:hover {
   transform: translateX(80px) translateY(-30px);
