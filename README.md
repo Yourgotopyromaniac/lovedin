@@ -9,6 +9,13 @@
 - **Developer 1**: Awoyemi Abiola - [GitHub](https://github.com/Yourgotopyromaniac)
 - **Developer 2**: Okwuosa Oluchi - [GitHub](https://github.com/luchiiii)
 
+## Blog Publications
+
+You can read up on our individual case study here
+
+- **Developer 1**: Awoyemi Abiola - https://dev.to/biola/lovedin-a-case-study-4hc7
+- **Developer 2**: Okwuosa Oluchi - https://dev.to/oluchii/building-lovedin-a-case-study-25lk
+
 ## Case Study Summary
 
 LovedIn is a web application designed to help people create and share personalized proposal experiences. The app takes a simple approach - users input their partner's name and relationship type, then get a customized proposal page that feels personal and meaningful.
