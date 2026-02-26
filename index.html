@@ -59,12 +59,20 @@
         <nav id="nav-links-container" aria-label="Main navigation">
           <a href="#features" class="navlink">Features</a>
           <a href="stories.html" class="navlink">Stories</a>
-          <a href="login.html" class="btn btn-primary auth-btn navlink"
-            >Sign In</a
+          <button
+            role="link"
+            onclick="window.location.href = 'login.html'"
+            class="btn btn-primary"
           >
-          <a href="index.html#get-started" class="btn btn-primary navlink"
-            >Get Started</a
+            Sign In
+          </button>
+          <button
+            role="link"
+            onclick="window.location.href = 'index.html#get-started'"
+            class="btn btn-primary"
           >
+            Get Started
+          </button>
         </nav>
       </div>
 
@@ -76,7 +84,12 @@
           up. LovedIn makes the moment unforgettable
         </p>
 
-        <a href="/proposal.html" class="btn btn-cta">Create a Proposal</a>
+        <button
+          onclick="window.location.href = 'proposal.html'"
+          class="btn btn-cta"
+        >
+          Create a Proposal
+        </button>
       </section>
     </header>
 
