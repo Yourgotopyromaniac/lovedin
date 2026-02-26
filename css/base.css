@@ -224,6 +224,7 @@ a {
 .btn-primary {
   background-color: var(--color-primary);
   color: var(--color-secondary-bg);
+  text-decoration: none;
 }
 
 .btn-secondary {
@@ -249,6 +250,7 @@ a {
   color: var(--color-white);
   transform: translateY(-2px);
   box-shadow: var(--shadow-colored);
+  text-decoration: none;
 }
 
 /* ========== SHARED ELEMENTS ========== */
