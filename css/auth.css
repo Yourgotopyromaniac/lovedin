@@ -96,11 +96,10 @@ body {
   color: var(--color-primary);
   font-weight: var(--font-weight-semibold);
   transition: var(--transition-base);
-}
-
-.redirect-link:hover {
-  color: var(--color-secondary);
-  text-decoration: none;
+  &:hover {
+    color: var(--color-secondary);
+    text-decoration: none;
+  }
 }
 
 /* project footer styling */
