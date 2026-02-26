@@ -35,6 +35,9 @@ body {
   position: fixed;
   top: var(--spacing-lg);
   left: var(--spacing-lg);
+  &:hover {
+    color: var(--color-primary);
+  }
 }
 
 /* proposal container styling */
@@ -146,6 +149,7 @@ body {
 } */
 
 .proposal-buttons__no:hover {
+  color: var(--color-primary);
   transform: translateX(80px) translateY(-30px);
 }
 
