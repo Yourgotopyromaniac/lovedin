@@ -96,6 +96,26 @@
   line-height: var(--line-height-relaxed);
 }
 
+/* ================= CONTAINER QUERIES FOR CARDS ================= */
+
+@container features (max-width: 800px) {
+  .feature-card {
+    text-align: center;
+    padding: var(--spacing-xl) var(--spacing-lg);
+  }
+
+  .feature-icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@container features (max-width: 500px) {
+  .feature-card {
+    padding: var(--spacing-lg);
+  }
+}
+
 /* ================= FORM SECTION ================= */
 
 .proposal-form-section {
@@ -252,17 +272,6 @@
     grid-template-columns: 1fr;
   }
 
-  /* Feature Cards */
-  .feature-card {
-    text-align: center;
-    padding: var(--spacing-xl) var(--spacing-lg);
-  }
-
-  .feature-icon {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   /* Headers */
   .section-header {
     flex-direction: column;
@@ -298,11 +307,6 @@
 
 /* ---------- Small Phones ---------- */
 @media (max-width: 420px) {
-  /* Cards */
-  .feature-card {
-    padding: var(--spacing-lg);
-  }
-
   /* Forms */
   .proposal-form-container {
     padding: var(--spacing-xl) var(--spacing-md);
