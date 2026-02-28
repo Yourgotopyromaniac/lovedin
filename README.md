@@ -33,6 +33,7 @@ Proposals are important moments that deserve to feel special. LovedIn makes it e
 ---
 
 ## Documentation
+View our presentation document here: https://docs.google.com/presentation/d/1wDVYNYQ2TWEAxHEWm7xCYd7zp3XL0XyUM5LKOO4Ynng/edit?usp=sharing
 
 Read the updated case study: https://docs.google.com/document/d/1BwLFD08gpjclHfZflFJPF8wNfVAWR2nbD_FLrHhudEE
 
@@ -50,11 +51,23 @@ lovedIn/
 ├── assets/
 │   └── images/               (Logo, favicon, and meta images)
 │
-├── js/
-│   ├── app.js
+├── css/
+│   ├── base.css              (Global styles and variables)
+│   ├── index.css             (Home page styles)
+│   ├── proposal.css          (Proposal page styles)
+│   ├── auth.css              (Login and signup page styles)
+│   └── stories.css           (Stories page styles)
 │
-├── index.html                 (Home page with the form)
-├── proposal.html              (The personalized proposal page)
+├── js/
+│   ├── app.js                (Home page scripts)
+│   ├── proposal.js           (Proposal page scripts)
+│   └── stories.js            (Stories page scripts)
+│
+├── index.html                (Home page with the form)
+├── proposal.html             (The personalized proposal page)
+├── login.html                (Login page)
+├── signup.html               (Signup page)
+├── stories.html              (Stories page)
 │
 └── README.md                 (This file)
 ```
