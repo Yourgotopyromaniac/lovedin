@@ -193,6 +193,7 @@ body {
 
 @media (max-width: 768px) {
   .proposal-container {
+    margin-top: var(--spacing-2xl);
     padding: var(--spacing-2xl) var(--spacing-lg);
   }
 
